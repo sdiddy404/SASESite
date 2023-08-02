@@ -6,6 +6,13 @@
 
 .hero {
     border: 1px solid black;
+    background-image: url(../images/misc/networking.jpeg);
+    height: 1000px;
+    /* filter: blur(4px); */
+}
+
+.carousel {
+    border: 1px solid black;
 }
 
 .mission {
