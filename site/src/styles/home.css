@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+.hero,
+.mission,
+.events {
+    margin: 0 auto; /* Add this line to center the elements horizontally */
+}
+
 .hero {
     border: 1px solid black;
     background-image: url(../images/misc/networking.jpeg);
-    height: 1000px;
-    /* filter: blur(4px); */
+    background-position: center;
+    height: 50rem;
+    filter: blur(4px);
 }
 
 .carousel {
@@ -16,17 +23,56 @@
 }
 
 .mission {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: white;
+    text-align: center;
+    margin: 8em auto;
 }
 
 .mission--statement {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    width: 45ch;
+    margin: auto;
+    font-size: 1.5rem;
 }
 
-.mission--item {
-    border: 1px solid black;
+.mission--flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: solid red 1px; */
 }
+
+.mission--flexitem {
+    margin: 2rem;
+    width: 30ch;
+    font-size: 1.1rem;
+    max-width: 100%; /* Add this to prevent flex items from overflowing when the browser size is reduced */
+}
+
 
 .events {
-    border: 1px solid black;   
+    background-color: black;
+    color: white;
+    padding: 12em 25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.events--flex-item-1 {
+    text-align: left;
+}
+
+.events h1 {
+    font-size: 2.5rem;
+}
+
+.events p {
+    font-size: 1.1rem;
+    width: 45ch;
+}
+
+.events--flex-item-2 {
+    text-align: right;
 }

@@ -1,8 +1,8 @@
 import React from 'react'
-// import sase logo
+import Logo from "../../images/saseBranding/sasewhitelogoplustext.png"
 
-export default function Hero(props) {
+export default function Hero() {
   return (
-    <p>{props.text}</p>
+      <img src={Logo} alt="SASE logo"></img>
   )
 }
