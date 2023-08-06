@@ -1,0 +1,22 @@
+.nav-logo {
+    width: auto;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .nav-logo { 
+        width: auto;
+        height: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-links {
+        justify-content: flex-start;
+    }
+    .social-links {
+        justify-content: flex-end;
+    }
+}
