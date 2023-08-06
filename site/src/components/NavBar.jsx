@@ -26,10 +26,10 @@ function Header () {
                 <Nav.Link className="socials" href="#facebook">
                   <img className="socials-logo" src={fbLogo} alt="fb logo" />
                 </Nav.Link>
-                <Nav.Link href="#instagram">
+                <Nav.Link className="socials" href="#instagram">
                   <img className="socials-logo" src={igLogo} alt="insta logo" />
                 </Nav.Link>
-                <Nav.Link href="#home">
+                <Nav.Link className="socials" href="#home">
                   <img className="socials-logo" src={emailLogo} alt="email logo" />
                 </Nav.Link>
               </Nav>
