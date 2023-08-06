@@ -7,7 +7,7 @@ import igLogo from '../images/socials/igLogo.png';
 import emailLogo from '../images/socials/email.png';
 import '../styles/sam/NavBar.css';
 
-function Header () {
+function NavBar () {
     return (
         <>
           <Navbar bg="light" expand="md" className="navbar">
@@ -39,4 +39,4 @@ function Header () {
       );
 }
 
-export default Header;
+export default NavBar;
