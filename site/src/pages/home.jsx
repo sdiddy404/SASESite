@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/home.css"
 import Hero from '../components/home/Hero'
+import Carousel from '../components/home/Carousel'
 import MissionStatement from "../components/home/MissionStatement"
 import MissionItem from "../components/home/MissionItem"
 import Handshake from "../images/home/handshake.png"
@@ -19,7 +20,8 @@ export default function home() {
         {/** carousel */}
         <div className='carousel '>
         {/**insert carousel code from sam */}
-            <p>carousel placeholder</p>
+            {/* <p>carousel placeholder</p> */}
+            <Carousel />
         </div>
 
         {/** mission */}

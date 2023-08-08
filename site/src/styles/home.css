@@ -5,21 +5,29 @@
 }
 
 .hero,
+.carousel,
 .mission,
 .events {
+    position: static;
     margin: 0 auto; /* Add this line to center the elements horizontally */
 }
 
 .hero {
+    display: flex;
     width: 100%; /* This can be any width you want the container to be */
     max-width: 100%;
+    height: 50rem;
     overflow: hidden; /* This ensures that any overflow is hidden */
 }
 
 .hero--background-image {
+    position: relative;
     filter: blur(5px);
-    width: 100%;
+    top: -10rem;
+    left: 49rem;
     display: block; /* Removes any extra spacing below the image */
+    max-width: 100%; /* Limits the image's maximum width to the width of its container */
+    height: auto; /* Allows the image to scale proportionally with the width */
 }
 
 .hero--foreground-image {
@@ -29,7 +37,8 @@
 }
 
 .carousel {
-    border: 1px solid black;
+    display: block; /* Removes any extra spacing below the image */
+    width: 100%;
 }
 
 .mission {
