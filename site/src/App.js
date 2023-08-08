@@ -7,8 +7,8 @@ import Events from "./pages/events"
 
 function App() {
   return (
-    <Home />
-    // <Events />
+    // <Home />
+    <Events />
   );
 }
 
