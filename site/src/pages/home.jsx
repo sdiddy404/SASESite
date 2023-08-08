@@ -13,7 +13,7 @@ export default function home() {
     <div>
         {/** hero */}
         <div className="hero">
-            <Hero text="We are the Society of Asian Scientists and Engineers at USC."/>
+            <Hero />
         </div>
 
         {/** carousel */}
