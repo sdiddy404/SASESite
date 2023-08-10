@@ -34,7 +34,13 @@
     text-align: center;
 }
 
-.upcoming-events--subheader {
+.upcoming-events--text {
     font-size: 1.1rem;
+    margin: 2em;
+    text-align: left;
+}
 
+.upcoming-events--instagram {
+    margin: 4em;
+    float: right;
 }
