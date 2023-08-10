@@ -5,8 +5,8 @@ import Networking from "../../images/misc/networking.jpeg"
 export default function Hero() {
   return (
     <div className="hero">
-      <div className="hero--background-image"><img src={Networking} alt="networking"></img></div>
-      <div className="hero--foreground-image"><img src={Logo} alt="SASE logo" height="160rem"></img></div>
+        <img className="hero--background-image" src={Networking} alt="E-Board"></img>
+        <img className="hero--foreground-image" src={Logo} alt="SASE logo" height="160rem"></img>
     </div>
   )
 }

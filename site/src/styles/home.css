@@ -1,75 +1,78 @@
+/* apply to ALL elements */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0 auto; /* set top and bottom margins to 0 and automatically center elements */
+    padding: 0; /* set padding to 0 so content takes up entirety of each box */
+    box-sizing: border-box; /* include border thickness and padding in box dimensions*/
 }
 
-.hero,
-.carousel,
-.mission,
-.events {
+.hero, .carousel, .mission, .events {
+    border: 5px solid red;
     position: static;
-    margin: 0 auto; /* Add this line to center the elements horizontally */
 }
 
+/* ----- hero ----- */
 .hero {
     display: flex;
+    justify-content: center;
     width: 100%; /* This can be any width you want the container to be */
-    max-width: 100%;
-    height: 50rem;
+    height: 40rem;
     overflow: hidden; /* This ensures that any overflow is hidden */
 }
 
 .hero--background-image {
-    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border: 5px solid blue;
     filter: blur(5px);
-    top: -10rem;
-    left: 49rem;
-    display: block; /* Removes any extra spacing below the image */
-    max-width: 100%; /* Limits the image's maximum width to the width of its container */
-    height: auto; /* Allows the image to scale proportionally with the width */
+    width: 100vw; /* Limits the image's maximum width to the width of its container */
+    height: auto;
 }
 
 .hero--foreground-image {
+    border: 5px solid blue;
     position: absolute;
     top: 20rem;
     left: 12rem;
 }
 
+/* ----- carousel ----- */
 .carousel {
     display: block; /* Removes any extra spacing below the image */
     width: 100%;
 }
 
+/* ----- mission ----- */
 .mission {
     /* border: 1px solid black; */
-    background-color: white;
+    background-color: white; 
     text-align: center;
-    margin: 8em auto;
 }
 
-.mission--statement {
-    /* border: 1px solid black; */
+.mission-statement {
+    border: 5px solid blue;
     width: 45ch;
     margin: auto;
     font-size: 1.5rem;
 }
 
-.mission--flexbox-container {
+.mission-item-container {
+    border: 5px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    width: 100%
     /* border: solid red 1px; */
 }
 
-.mission--flexitem {
+.mission-item {
+    border: 5px solid green;
     margin: 2rem;
     width: 30ch;
     font-size: 1.1rem;
-    max-width: 100%; /* Add this to prevent flex items from overflowing when the browser size is reduced */
 }
 
-
+/* ----- events ----- */
 .events {
     background-color: black;
     color: white;
@@ -79,7 +82,8 @@
     justify-content: center;
 }
 
-.events--flex-item-1 {
+.events--item-1 {
+    border: 5px solid blue;
     text-align: left;
 }
 
@@ -92,6 +96,7 @@
     width: 45ch;
 }
 
-.events--flex-item-2 {
+.events--item-2 {
+    border: 5px solid blue;
     text-align: right;
 }

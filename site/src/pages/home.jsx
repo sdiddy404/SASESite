@@ -7,11 +7,11 @@ import Events from '../components/home/Events'
 
 export default function home() {
     return (
-        <div>
+        <main>
             <Hero />
             <Carousel />
             <Mission />
             <Events />
-        </div>
+        </main>
     )
 }
