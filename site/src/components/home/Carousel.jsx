@@ -15,45 +15,47 @@ import Netflix from '../../images/carousel/netflix.png'
 
 export default function Carousel() {
   return (
-    <div className="slider">
-	<div className="slide-track">
-		<div className="slide">
-			<img src={Bloomberg} height="100" width="250" alt="Bloomberg" />
-		</div>
-		<div className="slide">
-			<img src={Boeing} height="100" width="250" alt="Boeing" />
-		</div>
-		<div className="slide">
-			<img src={Deloitte} height="100" width="250" alt="Deloitte" />
-		</div>
-		<div className="slide">
-			<img src={Goldman} height="100" width="250" alt="Goldman" />
-		</div>
-		<div className="slide">
-			<img src={Google} height="100" width="250" alt="Google" />
-		</div>
-		<div className="slide">
-			<img src={Harvard} height="100" width="250" alt="Harvard" />
-		</div>
-		<div className="slide">
-			<img src={Lockheed} height="100" width="250" alt="Lockheed" />
-		</div>
-		<div className="slide">
-			<img src={Microsoft} height="100" width="250" alt="Microsoft" />
-		</div>
-		<div className="slide">
-			<img src={Northrop} height="100" width="250" alt="Northrop" />
-		</div>
-		<div className="slide">
-			<img src={SpaceX} height="100" width="250" alt="SpaceX" />
-		</div>
-		<div className="slide">
-			<img src={Tesla} height="100" width="250" alt="Tesla" />
-		</div>
-		<div className="slide">
-			<img src={Netflix} height="100" width="250" alt="Netflix" />
+	<div className="carousel">
+		<div className="slider">
+			<div className="slide-track">
+				<div className="slide">
+					<img src={Bloomberg} height="100" width="250" alt="Bloomberg" />
+				</div>
+				<div className="slide">
+					<img src={Boeing} height="100" width="250" alt="Boeing" />
+				</div>
+				<div className="slide">
+					<img src={Deloitte} height="100" width="250" alt="Deloitte" />
+				</div>
+				<div className="slide">
+					<img src={Goldman} height="100" width="250" alt="Goldman" />
+				</div>
+				<div className="slide">
+					<img src={Google} height="100" width="250" alt="Google" />
+				</div>
+				<div className="slide">
+					<img src={Harvard} height="100" width="250" alt="Harvard" />
+				</div>
+				<div className="slide">
+					<img src={Lockheed} height="100" width="250" alt="Lockheed" />
+				</div>
+				<div className="slide">
+					<img src={Microsoft} height="100" width="250" alt="Microsoft" />
+				</div>
+				<div className="slide">
+					<img src={Northrop} height="100" width="250" alt="Northrop" />
+				</div>
+				<div className="slide">
+					<img src={SpaceX} height="100" width="250" alt="SpaceX" />
+				</div>
+				<div className="slide">
+					<img src={Tesla} height="100" width="250" alt="Tesla" />
+				</div>
+				<div className="slide">
+					<img src={Netflix} height="100" width="250" alt="Netflix" />
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
   )
 }
