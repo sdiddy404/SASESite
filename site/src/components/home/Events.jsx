@@ -1,4 +1,5 @@
 import React from 'react'
+import Retreat from '../../images/misc/Retreat_2023.jpg'
 
 export default function Events() {
   return (
@@ -12,10 +13,7 @@ export default function Events() {
               */}
           </div>
           <div className="events-item events--item-2">   
-              <p>placeholder</p>
-              {/*
-              include carousel of event pics
-              */}
+              <img src={Retreat} alt="Retreat" className="events--img"></img>
           </div>
       </div>
     </div>
