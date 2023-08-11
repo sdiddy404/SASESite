@@ -15,46 +15,43 @@
     padding: 2rem;
 }
 
-/* ----- hero ----- */
-.hero {
+/* set red border around hero, carousel, mission, and events */
+.hero, .carousel, .mission, .events {
     border: 2px solid red;
 }
 
-.hero--background-image {
+/* set blue border around containers and hero images*/
+.hero--background-image, .hero--foreground-image .mission-statement-container, .mission-item-container, .events-container {
     border: 2px solid blue;
 }
 
-.hero--foreground-image {
-    border: 2px solid blue;
+/* set green border around inner most components */
+.mission-statement, .mission-item, .events-item {
+    border: 2px solid green;
 }
+
+/* ----- hero ----- */
 
 /* ----- carousel ----- */
-.carousel {
-    border: 2px solid red;
-}
 
 /* ----- mission ----- */
 .mission {
-    border: 2px solid red;
     background-color: white;
     color: black;
     text-align: center;
 }
 
 .mission-statement-container {
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     padding-bottom: 0px;
 }
 
 .mission-statement {
-    border: 2px solid green;
     width: 75ch;
 }
 
 .mission-item-container {
-    border: 2px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -62,19 +59,16 @@
 }
 
 .mission-item {
-    border: 2px solid green;
     width: 30ch;
 }
 
 /* ----- events ----- */
 .events {
-    border: 2px solid red;
     background-color: black;
     color: white;
 }
 
 .events-container {
-    border: 2px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -82,7 +76,6 @@
 }
 
 .events-item {
-    border: 2px solid green;
     width: 50ch;
 }
 
