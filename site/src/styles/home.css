@@ -4,10 +4,6 @@
     box-sizing: border-box; /* include border thickness and padding in box dimensions */
 }
 
-.hero, .carousel, .mission, .events {
-    border: 5px solid red;
-}
-
 /* ----- hero ----- */
 .hero {
     border: 2px solid red;
@@ -42,10 +38,7 @@
 }
 
 .mission-statement {
-    border: 5px solid green;
-    width: 45ch;
-    margin: auto;
-    font-size: 1.5rem;
+    width: 75ch;
 }
 
 .mission-item-container {
@@ -78,5 +71,4 @@
 
 .events-item {
     border: 2px solid green;
-    width: 50ch;
 }
