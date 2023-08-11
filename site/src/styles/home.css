@@ -2,12 +2,11 @@
 * {
     margin: 0 auto; /* set top and bottom margins to 0 and automatically center elements */
     padding: 0; /* set padding to 0 so content takes up entirety of each box */
-    box-sizing: border-box; /* include border thickness and padding in box dimensions*/
+    box-sizing: border-box; /* include border thickness and padding in box dimensions */
 }
 
 .hero, .carousel, .mission, .events {
     border: 5px solid red;
-    position: static;
 }
 
 /* ----- hero ----- */
@@ -48,8 +47,16 @@
     text-align: center;
 }
 
-.mission-statement {
+.mission-statement-container {
     border: 5px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.mission-statement {
+    border: 5px solid green;
     width: 45ch;
     margin: auto;
     font-size: 1.5rem;
