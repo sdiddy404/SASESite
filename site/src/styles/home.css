@@ -5,94 +5,70 @@
     overflow-x: hidden;
 }
 
+/* ----- hero ----- */
 .hero {
-    display: flex;
-    width: 100%; /* This can be any width you want the container to be */
-    max-width: 100%;
-    height: 50rem;
-    overflow: hidden; /* This ensures that any overflow is hidden */
+    border: 2px solid red;
 }
 
 .hero--background-image {
-    position: relative;
-    filter: blur(5px);
-    top: -10rem;
-    left: 49rem;
-    display: block; /* Removes any extra spacing below the image */
-    max-width: 100%; /* Limits the image's maximum width to the width of its container */
-    height: auto; /* Allows the image to scale proportionally with the width */
+    border: 2px solid blue;
 }
 
 .hero--foreground-image {
-    position: absolute;
-    top: 20rem;
-    left: 12rem;
+    border: 2px solid blue;
 }
 
+/* ----- carousel ----- */
 .carousel {
-    display: block; /* Removes any extra spacing below the image */
-    width: 100%;
+    border: 2px solid red;
 }
 
+/* ----- mission ----- */
 .mission {
-    /* border: 1px solid black; */
+    border: 2px solid red;
     background-color: white;
+    color: black;
     text-align: center;
-    margin: 8em auto;
 }
 
-.mission--statement-container {
-    /* border: 1px solid black; */
+.mission-statement-container {
+    border: 2px solid blue;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    overflow-y: hidden;
 }
 
 .mission-statement {
-    border: 5px solid green;
-    width: 45ch;
-    margin: auto;
-    font-size: 1.5rem;
+    width: 75ch;
 }
 
-.mission--flexbox-container {
+.mission-item-container {
+    border: 2px solid blue;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    /* border: solid red 1px; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.mission--flexitem {
-    margin: 2rem;
+.mission-item {
+    border: 2px solid green;
     width: 30ch;
-    font-size: 1.1rem;
-    max-width: 100%; /* Add this to prevent flex items from overflowing when the browser size is reduced */
 }
 
-
+/* ----- events ----- */
 .events {
+    border: 2px solid red;
     background-color: black;
     color: white;
-    padding: 12em 25em;
+}
+
+.events-container {
+    border: 2px solid blue;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-.events--flex-item-1 {
-    text-align: left;
-}
-
-.events h1 {
-    font-size: 2.5rem;
-}
-
-.events p {
-    font-size: 1.1rem;
-    width: 45ch;
-}
-
-.events--flex-item-2 {
-    text-align: right;
+.events-item {
+    border: 2px solid green;
 }
