@@ -1,5 +1,4 @@
 import React from 'react'
-import "../../styles/carousel.css"
 import Bloomberg from '../../images/carousel/bloomberg.png'
 import Boeing from '../../images/carousel/boeing.png'
 import Deloitte from '../../images/carousel/deloitte.png'
@@ -12,6 +11,7 @@ import Northrop from '../../images/carousel/northrop.png'
 import SpaceX from '../../images/carousel/spacex.png'
 import Tesla from '../../images/carousel/tesla.png'
 import Netflix from '../../images/carousel/netflix.png'
+import "../../styles/carousel.css"
 
 export default function Carousel() {
   return (

@@ -24,7 +24,7 @@ h1 {
 p {
     font-family: Lato-Light;
     font-size: 1.1rem;
-}
+} 
 
 /* set padding for mission and events sections */
 .mission, .events {
@@ -107,6 +107,10 @@ p {
 .mission-item {
     width: 30ch;
     padding: 1rem;
+}
+
+.mission-item--p {
+    padding-top: 1rem;
 }
 
 /* ----- events ----- */
