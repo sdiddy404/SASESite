@@ -9,7 +9,7 @@ export default function Hero() {
         {/* <img className='hero--foreground-img' src={Logo} alt="Logo" height="200rem"></img> */}
         <div className='hero--foreground'>
           <img src={Logo} alt="Logo" width="50%"></img>
-          <p>We are the Society of Asian Scientists and Engineers at USC.</p>
+          <p className="hero--text">We are the Society of Asian Scientists and Engineers at USC.</p>
         </div>
     </div>
   )
