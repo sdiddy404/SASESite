@@ -9,7 +9,7 @@ export default function home() {
     return (
         <main>
             <Hero />
-            <Carousel />
+            {/* <Carousel /> */}
             <Mission />
             <Events />
         </main>

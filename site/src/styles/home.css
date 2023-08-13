@@ -42,33 +42,40 @@ p {
 }
 
 /* set blue border around containers and hero images*/
-.hero--background-image, .hero--foreground-image, .mission-statement-container, .mission-item-container, .events-container {
+.hero--foreground, .mission-statement-container, .mission-item-container, .events-container {
     /* border: 2px solid blue; */
 }
 
 /* set green border around inner most components */
-.mission-statement, .mission-item, .events-item {
+.hero--foreground-image, .mission-statement, .mission-item, .events-item {
     /* border: 2px solid green; */
 }
 
 /* ----- hero ----- */
 .hero {
-    display: block;
-    max-height: 400px;
-    overflow: hidden; /* Hide scrollbars */
+    overflow-y: hidden;
 }
 
-.hero--background-image {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-
-}
-
-.hero--foreground-image {
+.hero--background {
+    background-image: url(../images/misc/networking.jpeg);;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    top: 10%;
-    left: 10vw;
+    height: 27em;
+    filter: blur(5px);
+    transform: scale(1.05); 
+}
+
+.hero--foreground {
+    color: white;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 1rem;
+    text-align: left;
 }
 
 /* ----- carousel ----- */

@@ -9,7 +9,7 @@ export default function UpcomingEvents() {
         </div>
         <div className='flex-item upcoming-events--text'>
           <h1 className='upcoming-events--header'>Upcoming Events</h1>
-          <p className='upcoming-events--subheader'>Kick of the semester right and get to know us by speaking with current board members or click the button below to learn more SASE!</p>
+          <p className='upcoming-events--subheader'>Kick of the semester right and get to know us by speaking with current board members or click the button below to learn more about SASE!</p>
           {/*
           include button linking to mailing list sign up 
           */}
