@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './styles/fonts.css'
 import App from './App';
-import NavBar from './components/NavBar';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -12,8 +11,7 @@ root.render(
   <React.StrictMode>
     
     <Router>
-      <NavBar />
-      {/* <App /> */}
+      <App />
     </Router>
   </React.StrictMode>
 );

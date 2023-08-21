@@ -1,0 +1,284 @@
+.fair-image {
+  width: 95%;
+  height: auto;
+}
+
+.image-col {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.section-one {
+  margin-top: 7%;
+  padding: 0% 8% 0% 8%;
+}
+
+.section-two {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 0% 8% 0% 8%;
+}
+
+.who-text {
+  padding-top: 5%;
+  padding-right: 2%;
+}
+
+.who-section-one {
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.what-header {
+  /* display: flex; */
+  /* justify-content: right;
+  padding-right: 5%; */
+  width: 100%;
+  height: 100%;
+}
+
+.what-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.boba-img {
+  width: 90%;
+}
+
+.section-three {
+  background-color: #0765b2;
+  padding: 5.5vh 2.5vw;
+}
+
+.full-width-container {
+  padding: 0px;
+  width: 100vw;
+}
+
+.company-row {
+  padding: 12px 10px;
+}
+
+.company-column {
+  display: flex;
+  align-items: center;
+}
+
+.goldman {
+  height: 20px;
+  width: auto;
+}
+
+.company-logo {
+  /* width: 100%;
+    height: auto; */
+  filter: invert(100%) saturate(0%);
+}
+
+.section-four {
+  padding: 10vh 15vw;
+  text-align: center;
+}
+
+h1.meet-the-team {
+    padding-bottom: 5vh; 
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.board-col {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+
+.board-card {
+  width: 70%;
+  border-color: white !important;
+  padding: 0 !important;
+  /* height: 50%; */
+}
+
+.board-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.board-img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-title {
+  margin-bottom: 0.4vh;
+  font-size: 20px;
+}
+
+h1.huge {
+  font-family: "Inter", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+h1.white {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 300;
+  margin-bottom: 5vh;
+}
+
+h2.huge {
+  font-family: "Inter", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  /* font-family: "Inter", sans-serif; */
+}
+
+strong {
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(45deg, #69b8fdaa, transparent);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0 5px;
+}
+
+@media (max-width: 989px) {
+  .board-img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 17px !important;
+    margin-bottom: 0.2vh;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  h1.huge {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .board-img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 14px !important;
+    margin-bottom: 3px !important;
+  }
+
+  .card-text {
+    font-size: 9px;
+  }
+
+  h1.huge {
+    font-size: 3rem;
+  }
+
+  h2.huge {
+    font-size: 2rem;
+  }
+
+  p.who-section-one {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .fair-image {
+    width: auto;
+    height: 70%;
+  }
+
+  .image-col {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    order: 1;
+  }
+
+  .section-one {
+    margin-top: 8%;
+    padding: 0% 5% 0% 5%;
+  }
+
+  .section-two {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 0% 10% 0% 10%;
+  }
+
+  .who-text {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+  }
+
+  .who-section-one {
+    font-size: 0.8rem;
+  }
+
+  .text-col {
+    order: 2;
+  }
+
+  .board-img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 14px !important;
+    margin-bottom: 3px !important;
+  }
+
+  .card-text {
+    font-size: 9px;
+  }
+
+  h1.huge {
+    font-size: 2.8rem;
+  }
+
+  h2.huge {
+    font-size: 2rem;
+    margin-top: 15px;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+}

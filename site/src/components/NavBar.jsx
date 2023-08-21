@@ -5,7 +5,7 @@ import saseLogo from '../images/saseBranding/saseblacklogonotext.png';
 import fbLogo from '../images/socials/fbLogo.png';
 import igLogo from '../images/socials/igLogo.png';
 import emailLogo from '../images/socials/email.png';
-import '../styles/sam/NavBar.css';
+import '../styles/sam/navbar.css';
 
 function NavBar () {
     return (
