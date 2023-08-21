@@ -16,6 +16,21 @@
     src: url(../fonts/Lato/Lato-Black.ttf);
 }
 
+/* define fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+        opacity: 1; /* Fade in to full opacity */
+    }
+}
+
+.fade-in {
+    opacity: 0; /* Start with 0 opacity */
+    animation: fadeIn 2.75s ease-in-out forwards; /* 1s duration, ease-in-out timing function */
+}
+
 h1 {
     font-family: Lato-Black;
     font-size: 2.5rem;
@@ -118,6 +133,11 @@ p {
 .mission-item {
     width: 30ch;
     padding: 1rem;
+    transition: transform 0.4s ease; /* Apply smooth transition for the transform property */
+}
+
+.mission-item:hover {
+    transform: scale(1.1); /* Enlarge the element by 20% on hover */
 }
 
 .mission-item--p {
