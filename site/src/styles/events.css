@@ -1,0 +1,99 @@
+* {
+    margin: 0; /* top&bottom left&right */
+    padding: 0; /* set padding to 0 so content takes up entirety of each box */
+    box-sizing: border-box; /* include border thickness and padding in box dimensions */
+    overflow-x: hidden;
+}
+
+body {
+    display: block;
+}
+
+/* define font faces */
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Black;
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+h1 {
+    font-family: Lato-Black;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-family: Lato-Light;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+p {
+    font-family: Lato-Light;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+} 
+
+.featured-event, .upcoming-events {
+    /* border: 2px solid red; */
+    padding: 4rem 8rem; /* top&bottm left&right */
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+    /* border: 2px solid blue; */
+    overflow: hidden; /* Hide scrollbars */
+    width: 30ch;
+    margin: 1rem;
+}
+
+/* ----- featured event -----*/
+.featured-event {
+    background-color: black;
+    color: white;
+}
+
+.featured-event--img-container {
+    width: 30rem;
+}
+
+.featured-event--img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.featured-event--text {
+    width: 50ch;
+}
+
+/* ----- upcoming events -----*/
+.upcoming-events {
+    background-color: rgb(175, 175, 175);
+    color: black;
+}
+
+.upcoming-events--text {
+    width: 45ch;
+}
+
+.upcoming-events--instagram-container {
+    width: fit-content;
+    height: fit-content;
+}
+
+.upcoming-events--instagram {
+    width: 100%;
+    height: 70%;
+    min-height: 60%;
+    object-fit: contain;
+}
