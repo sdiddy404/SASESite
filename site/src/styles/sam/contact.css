@@ -1,0 +1,31 @@
+.contact-container {
+  padding: 10vh 3vw;
+}
+
+.bg-color {
+  background-color: #8ec63f61;
+  margin-left: -3vw;
+  display: flex;
+  align-items: center;
+}
+
+.margin-div {
+  padding: 5vh 3vw;
+}
+
+.contact-text {
+  font-size: 1.1rem !important;
+}
+
+.no-margin-div {
+  padding: 5vh 0;
+}
+
+.form-group {
+  padding-bottom: 2vh;
+}
+
+.submit-btn {
+  background-color: #0765b2 !important;
+  border: none !important;
+}
