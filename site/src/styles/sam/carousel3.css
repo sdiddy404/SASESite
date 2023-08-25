@@ -1,0 +1,25 @@
+.carousel-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    overflow: visible;
+    animation: scroll 40s linear infinite;
+    margin-top: 2.4vh;
+}
+
+.carousel-img {
+    height: 35px;
+    width: auto;
+    filter: saturate(0%) opacity(70%);
+    flex-shrink: 0;
+    margin: 2vh 1.3vw;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-50%));
+    }
+}

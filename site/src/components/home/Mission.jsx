@@ -4,6 +4,7 @@ import MissionItem from "./MissionItem"
 import Handshake from "../../images/home/handshake.png"
 import Diversity from "../../images/home/diversity.png"
 import Group from "../../images/home/group.png"
+import Button from "react-bootstrap/Button";
 
 export default function Mission() {
     return (
@@ -16,6 +17,7 @@ export default function Mission() {
             <MissionItem className="mission-item mission--item-2" img={Diversity} alt="Diversity" text="Celebrate diversity on campuses and in the workplace" />
             <MissionItem className="mission-item mission--item-3" img={Group} alt="Group" text="Provide opportunities for members to make contributions to their local communities" />
         </div>
+        <Button className="learn-more-btn">Learn more</Button>
         {/*
         insert button linked to about page
         */}

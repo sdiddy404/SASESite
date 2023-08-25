@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import Button from 'react-bootstrap/Button';
-import Home from "./pages/home"
-import Events from "./pages/events"
+import logo from "./logo.svg";
+import Button from "react-bootstrap/Button";
+import Home from "./pages/home";
+import About from "./pages/About";
+import Events from "./pages/events";
 
 function App() {
   return (
-    <Home />
+    <>
+      <Home />
+    </>
+    // <About />
     // <Events />
   );
 }
