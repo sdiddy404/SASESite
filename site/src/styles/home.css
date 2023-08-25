@@ -82,7 +82,7 @@ h1 {
 /* ----- hero ----- */
 .hero {
   overflow-y: hidden;
-  height: 38rem;
+  height: 35rem;
   width: 100%;
   position: relative;
 }
@@ -226,6 +226,7 @@ h1 {
 .events {
   background-color: #000000;
   color: white;
+  padding: 8vh 3vw;
 }
 
 .events-container {

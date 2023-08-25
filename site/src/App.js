@@ -9,8 +9,6 @@ function App() {
     <>
       <Home />
     </>
-    // <About />
-    // <Events />
   );
 }
 

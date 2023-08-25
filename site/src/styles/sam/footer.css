@@ -1,7 +1,7 @@
 .footer-row {
   display: flex;
   flex-direction: row;
-  padding: 3vh 1vw;
+  padding: 8vh 4vh 1vw 1vw;
 
   @media (max-width: 768px) {
     flex-direction: column-reverse;

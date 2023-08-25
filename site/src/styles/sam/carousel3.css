@@ -3,12 +3,12 @@
     flex-direction: row;
     width: fit-content;
     overflow: visible;
-    animation: scroll 40s linear infinite;
-    margin-top: 2.4vh;
+    animation: scroll 45s linear infinite;
+    margin-top: 2.5vh;
 }
 
 .carousel-img {
-    height: 35px;
+    height: 33px;
     width: auto;
     filter: saturate(0%) opacity(70%);
     flex-shrink: 0;
