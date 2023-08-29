@@ -13,7 +13,7 @@ export default function Events() {
             development programming for our members. Learn more about upcoming
             events, SASE conferences and more on our Events page.
           </p>
-          <Button className="learn-more-btn">Learn more</Button>
+          <Button className="learn-more-btn" href="/events">Learn more</Button>
         </div>
         <div className="events-item events--item-2">
           <img src={Retreat} alt="Retreat" className="events--img"></img>

@@ -20,13 +20,13 @@ function Footer() {
             <Col>
               <div>
                 <h6>Webpage</h6>
-                <a className="link" href="#about">
+                <a className="link" href="/about">
                   About
                 </a>
-                <a className="link" href="#events">
+                <a className="link" href="/events">
                   Events
                 </a>
-                <a className="link" href="#contact">
+                <a className="link" href="/contact">
                   Contact
                 </a>
               </div>
@@ -37,10 +37,10 @@ function Footer() {
                 <a className="link" href="https://www.instagram.com/uscsase/?hl=en">
                   Instagram
                 </a>
-                <a className="link" href="#events">
+                <a className="link" href="https://www.linkedin.com/company/usc-society-of-asian-scientists-and-engineers">
                   LinkedIn
                 </a>
-                <a className="link" href="#contact">
+                <a className="link" href="/contact">
                   Email
                 </a>
               </div>

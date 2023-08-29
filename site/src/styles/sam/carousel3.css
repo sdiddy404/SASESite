@@ -1,8 +1,13 @@
+.carousel-viewport {
+  overflow: hidden;
+  width: 100%; /* Set the desired viewport width */
+}
+
 .carousel-container {
     display: flex;
     flex-direction: row;
     width: fit-content;
-    overflow: visible;
+    overflow-x: hidden;
     animation: scroll 45s linear infinite;
     margin-top: 2.5vh;
 }

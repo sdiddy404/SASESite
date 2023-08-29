@@ -30,11 +30,15 @@ import mina from "../images/boardpics/mina.jpeg";
 import nick from "../images/boardpics/nick.jpeg";
 import sam from "../images/boardpics/sam.jpeg";
 
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+
 import "../styles/sam/about.css";
 
 function About() {
   return (
     <>
+    <NavBar />
       <Container fluid>
         <div className="section-one">
           <Row>
@@ -81,7 +85,7 @@ function About() {
                 networking events as well as semester-long programming for
                 leadership development.
               </p>
-              <Button> Learn More </Button>
+              <Button href="/events"> Learn More </Button>
             </Col>
           </Row>
         </div>
@@ -254,6 +258,8 @@ function About() {
             </Col>
           </Row>
         </div>
+
+        <Footer />
       </Container>
     </>
   );

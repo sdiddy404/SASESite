@@ -4,6 +4,10 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+
+
 import React, { useRef } from "react";
 
 import emailjs from "@emailjs/browser";
@@ -35,6 +39,7 @@ function Contact() {
 
   return (
     <>
+    <NavBar />
       <Container fluid>
         <div className="contact-container">
           <Row>
@@ -115,6 +120,7 @@ function Contact() {
           </Row>
         </div>
       </Container>
+      <Footer />
     </>
   );
 }

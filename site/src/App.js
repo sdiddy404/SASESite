@@ -1,19 +1,23 @@
 import logo from "./logo.svg";
 import Button from "react-bootstrap/Button";
+
 import Home from "./pages/home";
 import About from "./pages/About";
 import Events from "./pages/Events2";
-import NavBar from "./components/NavBar";
 import Contact from "./pages/Contact";
+
+import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <>
-    <NavBar />
-    {/* <About /> */}
-    {/* <Home /> */}
-      {/* <Events /> */}
-      <Contact />
+      <Routes>
+        <Route path="/" exact Component={Home}/>
+        <Route path="/about" Component={About} />
+        <Route path="/events" Component={Events} />
+        <Route path="/contact" Component={Contact} />
+        <Route path="/" Component={About} />
+      </Routes>
     </>
   );
 }

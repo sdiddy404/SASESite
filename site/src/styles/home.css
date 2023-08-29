@@ -30,11 +30,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* p.hero--text {
-  font-family: "Inter", sans-serif;
-  font-size: 1.1rem;
-} */
-
 /* set padding for mission and events sections */
 .mission,
 .events {
@@ -47,35 +42,9 @@ h1 {
   padding: 2rem;
 }
 
-/* set red border around hero, carousel, mission, and events */
-.hero,
-.carousel,
-.mission,
-.events {
-  /* border: 2px solid red; */
-}
-
-
-
-/* set blue border around containers and hero images*/
-.hero--foreground,
-.mission-statement-container,
-.mission-item-container,
-.events-container {
-  /* border: 2px solid blue; */
-}
-
-/* set green border around inner most components */
-.hero--foreground-image,
-.mission-statement,
-.mission-item,
-.events-item {
-  /* border: 2px solid green; */
-}
-
 /* ----- hero ----- */
 .hero {
-  overflow-y: hidden;
+  overflow: hidden;
   height: 35rem;
   width: 100%;
   position: relative;

@@ -12,11 +12,12 @@ import Tesla from "../../images/carousel/tesla.png";
 import Netflix from "../../images/carousel/netflix.png";
 
 import Image from "react-bootstrap/Image";
-import styles from "../../styles/sam/carousel3.css";
+import "../../styles/sam/carousel3.css";
 
 function Carousel3() {
   return (
     <>
+    <div className="carousel-viewport">
         <div className="carousel-container">
           <Image className="carousel-img" src={Bloomberg} />
           <Image className="carousel-img" src={Boeing} />
@@ -42,6 +43,7 @@ function Carousel3() {
           <Image className="carousel-img" src={SpaceX} />
           <Image className="carousel-img" src={Tesla} />
           <Image className="carousel-img" src={Netflix} />
+        </div>
         </div>
     </>
   );

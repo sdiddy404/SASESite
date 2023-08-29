@@ -8,6 +8,12 @@ import retreat from "../images/misc/Retreat_2023.jpg";
 import wrc from "../images/misc/WRC_2022.jpg";
 import hike from "../images/misc/jpl.jpeg";
 import academy from "../images/misc/academy.png";
+import boba from "../images/misc/boba.jpeg";
+import ucsd from "../images/misc/uscdwalking.png";
+import mikeBrenda from "../images/misc/mikebrendaucsd.png";
+
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 import vgcFair from "../images/upcomingevents/vgcFair2023.png";
 import "../styles/sam/events2.css";
@@ -16,6 +22,7 @@ function Events() {
   return (
     <>
       {/* <Container fluid> */}
+      <NavBar />
       <div className="events-section blue-bg">
         <Row>
           <Col className="img-col" md={6} xs={12}>
@@ -50,7 +57,7 @@ function Events() {
 
       <div className="events-section">
         <Row>
-          <Col className="text-col" md={6} xs={12}>
+          <Col className="text-col " md={6} xs={12}>
             <div id="section-two-text">
               <h2>Upcoming Events</h2>
               <p>
@@ -59,7 +66,7 @@ function Events() {
               </p>
             </div>
           </Col>
-          <Col id="upcoming-carousel-col" md={6} xs={12}>
+          <Col className="" id="upcoming-carousel-col" md={6} xs={12}>
             <Carousel data-bs-theme="dark" id="events-carousel">
               <Carousel.Item className="events-carousel-item">
                 <Image class="carousel-pic" src={vgcFair} fluid />
@@ -75,44 +82,29 @@ function Events() {
         </Row>
       </div>
 
-      <div class="events-section">
+      <div className="events-section green-bg-color">
         <div id="section-three-container">
-          <h2>Past Events</h2>
+          <h2 id="past-events-heading">Past Events</h2>
           <Carousel data-bs-theme="dark" style={{width: "90%"}}>
             <Carousel.Item>
               <Row>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
+                <Col><Image class="carousel-pic" src={academy} fluid /></Col>
+                <Col><Image class="carousel-pic" src={hike} fluid /></Col>
+                <Col><Image class="carousel-pic" src={retreat} fluid /></Col>
               </Row>
             </Carousel.Item>
             <Carousel.Item>
             <Row>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
+                <Col><Image class="carousel-pic" src={ucsd} fluid /></Col>
+                <Col><Image class="carousel-pic" src={boba} fluid /></Col>
+                <Col><Image class="carousel-pic" src={mikeBrenda} fluid /></Col>
               </Row>
             </Carousel.Item>
-            <Carousel.Item>
-            <Row>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-                <Col><Image class="carousel-pic" src={vgcFair} fluid /></Col>
-              </Row>
-            </Carousel.Item>
-            {/* <Carousel.Item className="events-carousel-item">
-              <Image class="carousel-pic" src={vgcFair} fluid />
-              <Image class="carousel-pic" src={vgcFair} fluid />
-            </Carousel.Item>
-            <Carousel.Item className="events-carousel-item">
-              <Image class="carousel-pic" src={vgcFair} fluid />
-            </Carousel.Item>
-            <Carousel.Item className="events-carousel-item">
-              <Image class="carousel-pic" src={vgcFair} fluid />
-            </Carousel.Item> */}
+            
           </Carousel>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
