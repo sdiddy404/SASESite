@@ -90,7 +90,7 @@ function About() {
       {/* <Container className="full-width-container" > */}
       <div className="section-three">
         <h1 className="white">Where our members have gone...</h1>
-        <Row className="justify-content-md-end company-row">
+        <Row className="company-row">
           <Col className="company-column" xs="3" md="2">
             <Image className="company-logo" src={boeing} fluid />
           </Col>
@@ -104,7 +104,7 @@ function About() {
             <Image className="company-logo" src={bloomberg} fluid />
           </Col>
         </Row>
-        <Row className="justify-content-md-end company-row">
+        <Row className="company-row">
           <Col className="company-column" xs="3" md="2">
             <Image className="company-logo" src={deloitte} fluid />
           </Col>
@@ -121,7 +121,7 @@ function About() {
             <Image className="company-logo" src={spacex} fluid />
           </Col>
         </Row>
-        <Row className="justify-content-md-end company-row">
+        <Row className="company-row">
           <Col className="company-column" xs="3" md="3">
             <Image className="company-logo" src={lockheed} fluid />
           </Col>
