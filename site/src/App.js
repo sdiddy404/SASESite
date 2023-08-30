@@ -1,12 +1,9 @@
-import logo from "./logo.svg";
-import Button from "react-bootstrap/Button";
-
 import Home from "./pages/home";
 import About from "./pages/About";
 import Events from "./pages/Events2";
 import Contact from "./pages/Contact";
 
-import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
