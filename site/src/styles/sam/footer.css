@@ -1,0 +1,49 @@
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  padding: 8vh 4vh 1vw 1vw;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+p.address {
+    padding-top: 1.4vh;
+    font-size: 1.8vh;
+}
+
+.sase-logo {
+    height: 7vh;
+    width: auto;
+    margin-bottom: 0.8vh;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.1vh 0;
+}
+
+.link:hover {
+    color: rgb(40, 40, 40);
+}
+
+.second-col {
+    display: flex;
+    flex-direction: row;
+}
+
+h6 {
+    font-size: 1.1rem;
+    margin-bottom: 1.1vh;
+}
+
+@media (max-width: 768px) {
+    .first-col {
+        padding-top: 5vh;
+    }
+}

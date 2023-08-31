@@ -1,0 +1,95 @@
+.events-section {
+  padding: 12vh 5vw;
+  /* margin: 5vh 0; */
+}
+
+.img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrc-img {
+  width: 95%;
+  height: auto;
+  align-self: center;
+}
+
+.text-col {
+  display: flex;
+  align-items: center;
+}
+
+#section-one-text {
+  padding: 0 3vw;
+  color: white;
+}
+
+#section-two-text {
+  padding: 0 3vw;
+  text-align: end;
+}
+
+#upcoming-carousel-col {
+    padding-left: 5vw;
+    /* padding: 3vh 5vw; */
+}
+
+.green-bg-color {
+  background-color: #8ec63f61;
+}
+
+.grey-bg-color {
+  background-color: #bebebe61;
+}
+
+#featured-events {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#featured-date {
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: rgb(204, 204, 204);
+  margin-bottom: 4vh;
+}
+
+.featured-text {
+  font-size: 1.1rem;
+}
+
+#events-carousel {
+  width: 60%;
+}
+
+.events-carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#past-events-heading {
+  padding-bottom: 5vh;
+}
+
+#retreat-img {
+  width: 90%;
+  height: auto;
+  align-self: center;
+}
+
+#section-three-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.green-bg {
+    background-color: #8ec63f;
+}
+
+.blue-bg {
+    background-color: #106CB7;
+}
